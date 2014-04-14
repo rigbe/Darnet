@@ -1,0 +1,14 @@
+CREATE TABLE `address` (
+  `customer_id` varchar(30) NOT NULL default '0',
+  `mobile_phone_number` varchar(30) NOT NULL default '',
+  `home_phone_number` varchar(30) NOT NULL default '',
+  `office_phone_number` varchar(30) NOT NULL default '',
+  `country` varchar(30) NOT NULL default '',
+  `town_or_city` varchar(30) NOT NULL default '',
+  `state_or_province` varchar(30) NOT NULL default '',
+  `address` varchar(30) NOT NULL default '',
+  `pobox` varchar(30) NOT NULL default '',
+  `email` varchar(30) NOT NULL default '',
+  `bank_account` varchar(30) NOT NULL default '',
+  PRIMARY KEY  (`customer_id`,`mobile_phone_number`)
+) 

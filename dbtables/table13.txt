@@ -1,0 +1,5 @@
+CREATE TABLE `customerstatus` (
+  `customer_id` varchar(30) NOT NULL,
+  `status` int(11) NOT NULL default '0'
+) 
+

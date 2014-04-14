@@ -1,0 +1,4 @@
+CREATE TABLE `commission_tracker` (
+  `commission_date` date NOT NULL default '0000-00-00'
+) 
+

@@ -1,0 +1,9 @@
+CREATE TABLE `commission` (
+  `customer_id` varchar(30) NOT NULL default '0',
+  `coid` int(11) NOT NULL auto_increment,
+  `date` date NOT NULL default '0000-00-00',
+  `commission_amount` int(11) NOT NULL default '0',
+  `commission_birr` double NOT NULL default '0',
+  PRIMARY KEY  (`coid`)
+) 
+

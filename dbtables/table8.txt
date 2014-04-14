@@ -1,0 +1,10 @@
+CREATE TABLE `product` (
+  `pid` int(11) NOT NULL auto_increment,
+  `productname` varchar(30) NOT NULL default '',
+  `price` double NOT NULL default '0',
+  `description` text,
+  `stockamt` int(11) NOT NULL default '0',
+  `cat_id` int(11) NOT NULL ,
+  PRIMARY KEY  (`pid`)
+) 
+

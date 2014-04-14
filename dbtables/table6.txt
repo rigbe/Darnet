@@ -1,0 +1,10 @@
+CREATE TABLE `ecard` (
+  `eid` bigint(20) NOT NULL auto_increment,
+  `ecardnum` varchar(30) NOT NULL default '',
+  `pincode` varchar(20) NOT NULL default '',
+  `used` int(11) NOT NULL default '0',
+  `originalvalue` int(11) NOT NULL default '0',
+  `generation_date` date NOT NULL default '0000-00-00',
+  PRIMARY KEY  (`eid`,`ecardnum`,`pincode`)
+) 
+

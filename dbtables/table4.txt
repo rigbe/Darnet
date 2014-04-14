@@ -1,0 +1,7 @@
+CREATE TABLE `customer_account` (
+  `customer_id` varchar(30) NOT NULL default '',
+  `password` varchar(30) NOT NULL default '',
+  `password_question` varchar(30) NOT NULL default '',
+  `password_answer` varchar(30) NOT NULL default '',
+  PRIMARY KEY  (`customer_id`,`password`)
+) 

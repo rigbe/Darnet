@@ -1,0 +1,6 @@
+CREATE TABLE `report` (
+  `rid` int(11) NOT NULL auto_increment,
+  `report_name` varchar(30) NOT NULL,
+  `type` varchar(20) default NULL,
+  PRIMARY KEY  (`rid`)
+)

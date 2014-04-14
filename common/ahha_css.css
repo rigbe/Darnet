@@ -1,0 +1,114 @@
+#main_title {
+	FONT-WEIGHT: bold; FONT-SIZE: 20px; COLOR: #000099; FONT-FAMILY: Arial Rounded MT Bold,castellar,verdana; TEXT-DECORATION: underline
+}
+#main_content {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #000033; FONT-STYLE: normal; FONT-FAMILY: Verdana,Bodoni MT, Arial, sans-serif
+}
+#red_content {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #990000; FONT-STYLE: normal; FONT-FAMILY: Verdana,Bodoni MT, Arial, sans-serif
+}
+#form_headers {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #0c4c4c; FONT-STYLE: normal; FONT-FAMILY: Verdana,Bodoni MT, Arial, sans-serif; BACKGROUND-COLOR: #e0e0d8
+}
+#table_stripes {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #000033; FONT-STYLE: normal; FONT-FAMILY: Verdana,Bodoni MT, Arial, sans-serif; BACKGROUND-COLOR: #eeeff0
+}
+#table_fonts {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #000033; FONT-STYLE: normal; FONT-FAMILY: Verdana,Bodoni MT, Arial, sans-serif
+}
+#link_titles {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #af0102; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+#highlight_notes {
+	FONT-WEIGHT: lighter; FONT-SIZE: 12px; COLOR: #cc0000; LINE-HEIGHT: normal; FONT-STYLE: oblique; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+#short_text {
+	FONT-SIZE: 13px; COLOR: #cc0000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+#small_text {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; FONT-FAMILY: grandier,Verdana, Arial, Helvetica, sans-serif
+}
+BODY A {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #003399; LINE-HEIGHT: normal; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+BODY INPUT {
+	FONT-SIZE: 11px; COLOR: #000066; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+TEXTAREA {
+	FONT-SIZE: 11px; COLOR: #000066; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+SELECT {
+	FONT-SIZE: 11px; COLOR: #000066; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+A:link {
+	COLOR: #1e5798; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #1e5798; TEXT-DECORATION: none
+}
+A.postlink {
+	COLOR: #1e5798; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000099
+}
+A:hover {
+	COLOR: #cc9900; TEXT-DECORATION: underline
+}
+.border_text {
+	BORDER-RIGHT: #e9e9e9 1px solid; BORDER-TOP: #e9e9e9 1px solid; BORDER-LEFT: #e9e9e9 1px solid; BORDER-BOTTOM: #e9e9e9 1px solid
+}
+.border_text_2 {
+	BORDER-RIGHT: #d8d8d8 1px; BORDER-TOP: #d8d8d8 1px solid; BORDER-LEFT: #d8d8d8 1px solid; BORDER-BOTTOM: #d8d8d8 1px solid
+}
+.border_line_upper {
+	BORDER-RIGHT: #bdbdb3 1px solid; BORDER-TOP: #bdbdb3 1px; BORDER-LEFT: #bdbdb3 1px; BORDER-BOTTOM: #bdbdb3 1px
+}
+.site_text {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.link_upper {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.link_upper:hover {
+	COLOR: #9b0703
+}
+.home_link {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.home_link:hover {
+	COLOR: #9b0703
+}
+.box_links {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.dotted_line {
+	BORDER-RIGHT: #e8e8e8 1px dotted; BORDER-TOP: #e8e8e8 1px; BORDER-LEFT: #e8e8e8 1px; BORDER-BOTTOM: #e8e8e8 1px
+}
+A.box_links:hover {
+	COLOR: #9b0703
+}
+.headings {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #0c4c4c; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.footer_links {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.footer_links:hover {
+	COLOR: #9b0703
+}
+.site_textwhite {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #ffffff; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.heading_red {
+	FONT-WEIGHT: bolder; FONT-SIZE: 12px; COLOR: #8a1116; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+#small_text {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; FONT-FAMILY: grandier,Verdana, Arial, Helvetica, sans-serif
+}
+BODY {
+	SCROLLBAR-FACE-COLOR: #495e83; SCROLLBAR-HIGHLIGHT-COLOR: #e0e0d8; SCROLLBAR-3DLIGHT-COLOR: #e0e0d8; SCROLLBAR-ARROW-COLOR: #e0e0d8; SCROLLBAR-TRACK-COLOR: #e0e0d8; SCROLLBAR-DARKSHADOW-COLOR: #e0e0d8
+}
+.pre {
+	WORD-WRAP: break-word
+}

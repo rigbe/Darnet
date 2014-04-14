@@ -1,0 +1,28 @@
+CREATE TABLE `customer` (
+  `customer_id` varchar(30) NOT NULL default '',
+  `first_name` varchar(10) NOT NULL default '',
+  `middle_name` varchar(30) NOT NULL default '',
+  `last_name` varchar(10) NOT NULL default '',
+  `birth_date` date NOT NULL default '0000-00-00',
+  `gender` varchar(10) NOT NULL default '',
+  `nationality` varchar(30) NOT NULL default '',
+  `occupation` varchar(30) NOT NULL default '',
+  `id_number` varchar(30) NOT NULL default '',
+  `benificiary_name` varchar(30) NOT NULL default '',
+  `benificiary_relationship` varchar(30) NOT NULL default '',
+  `left_descendant_id` varchar(30) default NULL,
+  `right_descendant_id` varchar(30) default NULL,
+  `left_over` int(11) NOT NULL default '0',
+  `right_over` int(11) NOT NULL default '0',
+  `numberof_rightdirects` int(11) NOT NULL default '0',
+  `numberof_leftdirects` int(11) NOT NULL default '0',
+  `registration_date` date NOT NULL default '0000-00-00',
+  `referer_id` varchar(30) NOT NULL default '',
+  `parent_id` varchar(30) NOT NULL default '',
+  `steps` int(11) NOT NULL default '0',
+  `salutation` varchar(10) NOT NULL default '',
+  `number_evoucher` int(11) NOT NULL default '0',
+  PRIMARY KEY  (`customer_id`)
+) 
+
+

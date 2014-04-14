@@ -1,0 +1,7 @@
+CREATE TABLE `userverify` (
+  `userid` varchar(30) NOT NULL default '',
+  `password` varchar(50) NOT NULL default '',
+  `type` varchar(20) NOT NULL default '',
+  PRIMARY KEY  (`userid`)
+) 
+

@@ -1,0 +1,6 @@
+CREATE TABLE `category` (
+  `cat_id` int(11) NOT NULL auto_increment,
+  `cat_name` varchar(30) NOT NULL default '',
+  PRIMARY KEY  (`cat_id`)
+) 
+

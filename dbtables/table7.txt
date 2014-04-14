@@ -1,0 +1,13 @@
+CREATE TABLE `orders` (
+  `customer_id` varchar(30) NOT NULL default '0',
+  `pid` int(11) NOT NULL default '0',
+  `amtordered` int(11) NOT NULL default '0',
+  `amount_due` int(11) NOT NULL default '0',
+  `alternate_payment` binary(1) NOT NULL default '0',
+  `delivery_status` binary(1) NOT NULL default '0',
+   'date' date NOT NULL default '0000-00-00',
+  PRIMARY KEY  (`customer_id`,`pid`),
+  KEY `pid` (`pid`)
+) 
+
+
